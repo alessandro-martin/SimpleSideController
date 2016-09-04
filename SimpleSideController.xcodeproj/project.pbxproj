@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF9003EF1D7CB7D80045F731 /* PresentInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9003EE1D7CB7D80045F731 /* PresentInteractionController.swift */; };
+		BF9003F11D7CB7E30045F731 /* DismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9003F01D7CB7E30045F731 /* DismissInteractionController.swift */; };
+		BF9003F31D7CB8030045F731 /* PresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9003F21D7CB8030045F731 /* PresentAnimationController.swift */; };
+		BF9003F51D7CB80C0045F731 /* DismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9003F41D7CB80C0045F731 /* DismissAnimationController.swift */; };
+		BF9003F71D7CB8150045F731 /* AutolayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9003F61D7CB8150045F731 /* AutolayoutHelpers.swift */; };
 		BFBCB4C81D6A48BB0036B461 /* SimpleSideController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBCB4BE1D6A48BB0036B461 /* SimpleSideController.framework */; };
 		BFBCB4CD1D6A48BB0036B461 /* SimpleSideControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCB4CC1D6A48BB0036B461 /* SimpleSideControllerTests.swift */; };
 		BFBCB4CF1D6A48BB0036B461 /* SimpleSideController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBCB4C11D6A48BB0036B461 /* SimpleSideController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF9003EE1D7CB7D80045F731 /* PresentInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentInteractionController.swift; sourceTree = "<group>"; };
+		BF9003F01D7CB7E30045F731 /* DismissInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissInteractionController.swift; sourceTree = "<group>"; };
+		BF9003F21D7CB8030045F731 /* PresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAnimationController.swift; sourceTree = "<group>"; };
+		BF9003F41D7CB80C0045F731 /* DismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimationController.swift; sourceTree = "<group>"; };
+		BF9003F61D7CB8150045F731 /* AutolayoutHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutHelpers.swift; sourceTree = "<group>"; };
 		BFBCB4BE1D6A48BB0036B461 /* SimpleSideController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleSideController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBCB4C11D6A48BB0036B461 /* SimpleSideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleSideController.h; sourceTree = "<group>"; };
 		BFBCB4C21D6A48BB0036B461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,7 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				BFBCB4D91D6A49020036B461 /* SimpleSideController.swift */,
+				BF9003F61D7CB8150045F731 /* AutolayoutHelpers.swift */,
 				BFBCB4DB1D6A49020036B461 /* Helpers.swift */,
+				BF9003F21D7CB8030045F731 /* PresentAnimationController.swift */,
+				BF9003F41D7CB80C0045F731 /* DismissAnimationController.swift */,
+				BF9003F01D7CB7E30045F731 /* DismissInteractionController.swift */,
+				BF9003EE1D7CB7D80045F731 /* PresentInteractionController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -213,7 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9003F51D7CB80C0045F731 /* DismissAnimationController.swift in Sources */,
+				BF9003F31D7CB8030045F731 /* PresentAnimationController.swift in Sources */,
 				BFBCB4DC1D6A49020036B461 /* SimpleSideController.swift in Sources */,
+				BF9003F11D7CB7E30045F731 /* DismissInteractionController.swift in Sources */,
+				BF9003EF1D7CB7D80045F731 /* PresentInteractionController.swift in Sources */,
+				BF9003F71D7CB8150045F731 /* AutolayoutHelpers.swift in Sources */,
 				BFBCB4DE1D6A49020036B461 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
